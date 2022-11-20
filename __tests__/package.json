@@ -1,0 +1,29 @@
+{
+  "name": "pupilfirst_wd201_l-4",
+  "version": "1.0.0",
+  "description": "programming is fun!",
+  "main": "todo.js",
+  "scripts": 
+  {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "lint-staged": 
+  {
+    "*.js": 
+    [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
+  "author": "keerthanamaneti <keerthanamaneti@gmail.com>",
+  "license": "ISC",
+  "devDependencies": 
+  {
+    "eslint": "^8.24.0",
+    "husky": "^8.0.1",
+    "jest": "^29.0.3",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}
